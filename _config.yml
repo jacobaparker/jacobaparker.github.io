@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Jacob
+middle_name: A.
+last_name: Parker
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -49,7 +49,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false # JP 2025-04-08
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -174,6 +174,15 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - _pages/dropdown.md # JP 2025-04-08
+  - _pages/teaching.md # JP 2025-04-08
+  - _pages/profiles.md # JP 2025-04-08
+  - _pages/repositories.md # JP 2025-04-08
+  - _news/announcement_*.md # JP 2025-04-08
+  - _pages/blog.md # JP 2025-04-08
+  - _posts/ # JP 2025-04-08
+  - _projects/?_project.md # JP 2025-04-08
+  - assets/jupyter/blog.ipynb # JP 2025-04-08
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

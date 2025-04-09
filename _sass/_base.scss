@@ -4,6 +4,25 @@
 
 // Typography
 
+// header {
+//   font-size: 110%;
+// }
+
+html {
+  font-size: 110%;
+}
+
+body {
+  // font-size: 110%;
+  font-variant-ligatures: none;
+  font-family: 'CMU Serif', 'Times New Roman', Times, serif;
+}
+
+// p, h1, h2, h3, h4, h5, h6, nav, article {
+//   font-variant-ligatures: none;
+//   font-family: 'CMU Serif', 'Times New Roman', Times, serif;
+// }
+
 p,
 h1,
 h2,
@@ -198,7 +217,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    // font-family: sans-serif;
 
     p {
       display: inline-block;
@@ -289,6 +308,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    // font-variant: small-caps;
 
     &:hover {
       color: var(--global-hover-color);
@@ -736,6 +756,7 @@ footer.sticky-bottom {
         margin-bottom: 0.5rem;
 
         abbr {
+          font-family: "Roboto", 'Segoe UI', sans-serif;
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
@@ -757,7 +778,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: bold;
       }
 
       .author {
@@ -789,6 +810,8 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
+          font-family: "Roboto", 'Segoe UI', sans-serif;
+          font-weight: bold;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;

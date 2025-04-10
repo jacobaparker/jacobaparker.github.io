@@ -28,10 +28,11 @@
   font-style: italic;
 }
 
+// doesn't currenlty work, will break
 // @font-face {
 //   font-family: "Latin Modern Roman";
 //   src: url(../webfonts/lmromancaps10-regular-webfont.woff);
-//   font-variant: small-caps;
+//   font-style: small-caps;
 // }
 
 @font-face {
@@ -46,13 +47,13 @@ html {
 
 body {
   font-variant-ligatures: none;
-  font-family: 'Latin Modern Roman', Georgia, serif;
+  // font-family: 'Latin Modern Roman', Georgia, serif;
 }
 
-// p, h1, h2, h3, h4, h5, h6, nav, article {
-//   font-variant-ligatures: none;
-//   font-family: 'CMU Serif', 'Times New Roman', Times, serif;
-// }
+h1, h2, h3, h4, h5, h6, nav{
+  font-variant-ligatures: none;
+  font-family: 'Latin Modern Roman', Georgia, serif;
+}
 
 p,
 h1,

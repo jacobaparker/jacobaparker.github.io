@@ -2,14 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  <span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span><br>
+  Neuroscience Graduate Group<br>
+  University of Pennsylvania<br>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <h4>Jacob A. Parker, B.Sc.</h4>
+    <h4>Jacob A. Parker, B.Sc</h4>
     <p><span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span></p>
     <p>Neuroscience Graduate Group</p>
     <p>University of Pennsylvania</p>

@@ -35,19 +35,24 @@
 //   font-style: small-caps;
 // }
 
-@font-face {
-  font-family: "Latin Modern Roman";
-  src: url(../webfonts/lmromandemi10-regular-webfont.woff);
-  font-stretch: condensed;
-}
+// @font-face {
+//   font-family: "Latin Modern Roman";
+//   src: url(../webfonts/lmromandemi10-regular-webfont.woff);
+//   font-stretch: condensed;
+// }
 
-html {
-  font-size: 110%;
-}
+// html {
+//   font-size: 100%;
+// }
 
 body {
   font-variant-ligatures: none;
+  font-family: Roboto, Arial, sans-serif;
   // font-family: 'Latin Modern Roman', Georgia, serif;
+}
+
+nav {
+  font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6, nav{
@@ -299,6 +304,8 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
 }
 
 .navbar .dropdown-menu {

@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <h5><span style="font-weight:bold;">Jacob A. Parker, B.Sc.</span></h5>
+    <h4>Jacob A. Parker, B.Sc.</h4>
     <p><span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span></p>
     <p>Neuroscience Graduate Group</p>
     <p>University of Pennsylvania</p>

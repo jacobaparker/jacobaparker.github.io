@@ -274,7 +274,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 31%;
 
     .address {
       p {
@@ -976,6 +976,31 @@ footer.sticky-bottom {
       border-color: var(--global-highlight-color);
     }
   }
+}
+
+.publications-subsection-link {
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+}
+
+.general-link {
+
+  a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
 }
 
 // Rouge Color Customization

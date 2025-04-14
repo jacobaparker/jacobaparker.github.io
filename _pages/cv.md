@@ -9,4 +9,8 @@ description: # Click the PDF icon for a copy of my CV ---->
 # toc:
 #   sidebar: left
 ---
-[[Download Link]](/assets/pdf/CV.pdf)
+<a href="/assets/pdf/CV.pdf" target="_blank" rel="noopener noreferrer">[Download Link]<a>
+
+<object data="/assets/pdf/CV.pdf" type="application/pdf" width="100%" height="800px">
+      <p>Unable to display PDF file. <a href="/assets/pdf/CV.pdf">Download</a> instead.</p>
+</object>

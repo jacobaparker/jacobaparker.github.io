@@ -2,16 +2,16 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Click on a section name to jump to it.
+description:
 nav: true
 nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
 
-<h3><a href="#articles-section">journal articles</a></h3>
-<h3><a href="#presentations-section">conference presentations</a></h3>
-<h3><a href="#writings-section">additional writings</a></h3>
+<div class="publications-subsection-link"><h4><a href="#articles-section">journal articles <i class="fa-solid fa-turn-down"></i></a></h4></div>
+<div class="publications-subsection-link"><h4><a href="#presentations-section">conference presentations <i class="fa-solid fa-turn-down"></i></a></h4></div>
+<div class="publications-subsection-link"><h4><a href="#writings-section">additional writings <i class="fa-solid fa-turn-down"></i></a></h4></div>
 
 <br>
 

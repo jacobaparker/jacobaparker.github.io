@@ -11,10 +11,10 @@ profile:
   socials: true
   more_info: >
     <h3>Jacob A. Parker</h3>
-    <p><span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span></p>
-    <p>Neuroscience Graduate Group</p>
+    <p><span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span></p><br>
+    <p>Neuroscience Graduate Group</p><br>
     <p>University of Pennsylvania</p><br>
-    <div class="general-link"><a href="mailto:jacob.parker@pennmedicine.upenn.edu">jacob.parker@<span style="display:none;">getwreckedmailscraperslmao-</span>pennmedicine.upenn.edu</a></div>
+    <div class="general-link" style="overflow-wrap: break-word;"><a href="mailto:jacob.parker@pennmedicine.upenn.edu">jacob.parker@<span style="display:none;">getwreckedmailscraperslmao-</span>pennmedicine.upenn.edu</a></div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page

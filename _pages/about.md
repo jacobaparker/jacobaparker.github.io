@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-  <span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span><br>
-  Neuroscience Graduate Group<br>
-  University of Pennsylvania<br>
+subtitle: 
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  socials: true
   more_info: >
-    <h4>Jacob A. Parker, B.Sc</h4>
+    <h3>Jacob A. Parker</h3>
     <p><span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span></p>
     <p>Neuroscience Graduate Group</p>
     <p>University of Pennsylvania</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items

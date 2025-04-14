@@ -64,7 +64,10 @@ document.addEventListener("DOMContentLoaded", function () {
     timeoutId = setTimeout(filterItems(searchTerm), 300);
   });
 
-  window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
+  // JP: this appears interfere with putting a linked section list at the top of the publication page
+  // seems like it would be useful for creating a link from another page that autosearches all papers with bibsearch though
+  // will deactivate for now because I want the linked section list at the top
+  // window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
   updateInputField(); // Update filter when page loads
 });

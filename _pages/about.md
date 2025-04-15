@@ -30,7 +30,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! My name is Jake and I'm a computational and theoretical neuroscientist. I am currently completing my PhD at the University of Pennsylvania under the supervision of [Josh Gold](https://www.med.upenn.edu/goldlab/) and [Joe Kable](https://www.kablelab.com/) with funding from a [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/).
+Hello! My name is Jake and I'm a computational and theoretical neuroscientist. I am currently completing my PhD at the University of Pennsylvania under the supervision of [Josh Gold](https://www.med.upenn.edu/goldlab/) and [Joe Kable](https://www.kablelab.com/) with funding from an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+
+<!-- My work seeks to reveal the principles governing inference in the brain, with an emphasis on explaining the high degree of individual variability we observe both behaviorally and neurally. Currently, this work is focused on the various ways people balance the benefit of making accurate inferences against the cost of
+
+Through this work, I hope to shed light on questions such as why people make suboptimal decisions, why people tend to use heuristic strategies, what the surprising benefits there may be to heuristic inference -->
+
+Before starting my PhD, I completed my B.Sc. in neuroscience at New York University in 2017. As an undergrad, I worked on developing an approach to modeling pupil responses evoked by cognitive events in the [Carrasco Lab](https://wp.nyu.edu/carrascolab/). After graduating, I spent four years studying neurological movement disorders at the NIH as a Postbac in the lab of [Mark Hallett](https://en.wikipedia.org/wiki/Mark_Hallett_(neurologist)).
 
 <!-- My work seeks to reveal the principles governing inference in the brain - that is, the process of 
 

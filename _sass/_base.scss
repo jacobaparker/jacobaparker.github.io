@@ -46,13 +46,10 @@ html {
 }
 
 body {
-  font-variant-ligatures: none;
-  font-family: Roboto, Arial, sans-serif;
+  // font-variant-ligatures: none;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  // font-size: 1.05rem;
   // font-family: 'Latin Modern Roman', Georgia, serif;
-}
-
-nav {
-  font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6, nav{
@@ -60,13 +57,32 @@ h1, h2, h3, h4, h5, h6, nav{
   font-family: 'Latin Modern Roman', Garamond, Georgia, serif;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+nav {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+  // font-weight: 400;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
 em,
 div,
 li,
@@ -299,6 +315,10 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Navbar customization
+
+// .navbar-brand {
+//   font-size: 1.3rem;
+// }
 
 .navbar {
   box-shadow: none;

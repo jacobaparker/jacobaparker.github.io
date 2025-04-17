@@ -30,20 +30,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! My name is Jake and I'm a computational and theoretical neuroscientist. I am currently completing my PhD at the University of Pennsylvania under the supervision of [Josh Gold](https://www.med.upenn.edu/goldlab/) and [Joe Kable](https://www.kablelab.com/) with funding from an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+Hello! My name is Jake and I'm a computational and theoretical neuroscientist. I am currently completing my PhD at the University of Pennsylvania under the supervision of [Josh Gold](https://www.med.upenn.edu/goldlab/) and [Joe Kable](https://www.kablelab.com/) with support from an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
-<!-- My work seeks to reveal the principles governing inference in the brain, with an emphasis on explaining the high degree of individual variability we observe both behaviorally and neurally. Currently, this work is focused on the various ways people balance the benefit of making accurate inferences against the cost of
+I study the principles governing inference in the brain, with an emphasis on explaining the high degree of individual variability we observe both behaviorally and neurally. In my current work, I find that a lot of this individual variability reflects people flexibly trading off accuracy with various forms of cognitive/neural cost reduction. Two prominent ways that people appear to reduce the cost of inference are roughly equivalent to 1) reducing the neural precision of one's inferences, and 2) using simpler (heuristic) inference strategies. I have used mathematical analysis, computational modeling, and behavioral experiments to explore these and other ideas, which you can read more about under the [research](/research/) tab.
 
-Through this work, I hope to shed light on questions such as why people make suboptimal decisions, why people tend to use heuristic strategies, what the surprising benefits there may be to heuristic inference -->
+I obtained my B.Sc. in neuroscience from New York University in 2017. As an undergrad, I worked on developing an approach to modeling pupil responses evoked by cognitive events in the [Carrasco Lab](https://wp.nyu.edu/carrascolab/). After graduating, I spent four years studying the pathophysiology of movement disorders as an NIH postbac in the lab of [Mark Hallett](https://en.wikipedia.org/wiki/Mark_Hallett_(neurologist)). While I initially intended to pursue my interest in the brain in the context of medicine, it was through these two research experiences that I discovered a passion for research. I realized that I was particularly drawn to the princpled descriptions of brain and behavior that theoretical/computational neuroscience could provide.
 
-Before starting my PhD, I completed my B.Sc. in neuroscience at New York University in 2017. As an undergrad, I worked on developing an approach to modeling pupil responses evoked by cognitive events in the [Carrasco Lab](https://wp.nyu.edu/carrascolab/). After graduating, I spent four years studying neurological movement disorders at the NIH as a Postbac in the lab of [Mark Hallett](https://en.wikipedia.org/wiki/Mark_Hallett_(neurologist)).
-
-<!-- My work seeks to reveal the principles governing inference in the brain - that is, the process of 
-
-My work seeks to reveal the principles governing inference in the brain, with an emphasis on explaining the high degree of individual variability we observe both behaviorally and neurally. Through this work, I hope to shed light on questions such as why people make suboptimal decisions, why people tend to use heuristic strategies  -->
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Growing up in the DC area and up until the end of college, I spent much of my free time in the pool as a competitive swimmer. Nowadays, I enjoy Olympic-style weightlifting, photography, spending time with friends, and learning new things.

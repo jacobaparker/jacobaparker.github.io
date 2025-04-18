@@ -14,7 +14,7 @@ profile:
     <p><span style="font-weight:bold;">Ph.D. Candidate in Neuroscience</span></p><br>
     <p>NSF Graduate Research Fellow</p><br>
     <p>University of Pennsylvania</p><br>
-    <div class="general-link" style="overflow-wrap: break-word;"><p><a href="mailto:jacob.parker@pennmedicine.upenn.edu">jacob.parker@<span style="display:none;">getwreckedmailscraperslmao-</span>pennmedicine.upenn.edu</a></p></div>
+    <div class="general-link" style="overflow-wrap: break-word;"><p><a href="mailto:jacob.parker@pennmedicine.upenn.edu">jacob.parker<br>@<span style="display:none;">getwreckedmailscraperslmao-</span>pennmedicine.upenn.edu</a></p></div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page

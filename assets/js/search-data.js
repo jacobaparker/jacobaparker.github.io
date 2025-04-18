@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Coming soon!",
+          description: "Under Construction.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -35,6 +35,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "projects-modeling-pupil-responses",
+          title: 'Modeling Pupil Responses',
+          description: "undergraduate work",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/modeling-pupil-responses/";
             },},{
         id: 'social-email',
         title: 'email',

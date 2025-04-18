@@ -2,7 +2,7 @@
 layout: page
 title: Modeling Pupil Responses
 description: undergraduate work
-img: assets/img/publication_preview/PRET.gif
+img: assets/img/pupil-modeling.png
 importance: 1
 category: previous work
 related_publications: true

@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: Coming soon!
+description: Under Construction.
 nav: true
 nav_order: 2
 display_categories: [active work, previous work]

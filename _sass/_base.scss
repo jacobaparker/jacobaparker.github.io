@@ -4,10 +4,10 @@
 
 // Typography
 
-@font-face {
-  font-family: "Helvetica Light";
-  src: url(../webfonts/Helvetica-Light.woff);
-}
+// @font-face {
+//   font-family: "Helvetica Light";
+//   src: url(../webfonts/Helvetica-Light.woff);
+// }
 
 @font-face {
   font-family: "Latin Modern Roman";
@@ -52,14 +52,16 @@ html {
 
 body {
   // font-variant-ligatures: none;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
   // font-size: 1.05rem;
   // font-family: 'Latin Modern Roman', Georgia, serif;
 }
 
 h1, h2, h3, h4, h5, h6, nav{
   font-variant-ligatures: none;
-  font-family: 'Latin Modern Roman', Garamond, Georgia, serif;
+  font-family: "Playfair Display", 'Latin Modern Roman', Garamond, Georgia, serif;
+  color: var(--global-header-text-color);
 }
 
 nav {
@@ -68,6 +70,7 @@ nav {
 
 p {
   font-size: 1rem;
+  line-height: 1.6rem;
   // font-weight: 400;
 }
 h1 {
@@ -339,7 +342,7 @@ ul.task-list input[type="checkbox"] {
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-header-text-color);
   }
 
   a:hover {
@@ -352,7 +355,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .dropdown-item {
-  color: var(--global-text-color);
+  color: var(--global-header-text-color);
 
   &:hover {
     color: var(--global-hover-color);
@@ -363,16 +366,17 @@ ul.task-list input[type="checkbox"] {
 .navbar.navbar-light {
   a {
     &:hover {
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-header-text-color);
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-header-text-color);
     // font-variant: small-caps;
 
     &:hover {
@@ -1199,7 +1203,7 @@ progress::-moz-progress-bar {
 
   .dropdown-item {
     background-color: var(--global-bg-color);
-    color: var(--global-text-color);
+    color: var(--global-header-text-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -1226,7 +1230,7 @@ nav[data-toggle="toc"] {
   }
 
   .nav > li > a {
-    color: var(--global-text-color);
+    color: var(--global-header-text-color);
     font-size: 0.75rem;
 
     &:hover {

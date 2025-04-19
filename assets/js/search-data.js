@@ -37,7 +37,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-modeling-pupil-responses",
           title: 'Modeling Pupil Responses',
-          description: "undergraduate work",
+          description: "My undergraduate work",
           section: "Projects",handler: () => {
               window.location.href = "/projects/modeling-pupil-responses/";
             },},{

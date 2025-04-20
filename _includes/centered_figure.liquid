@@ -1,0 +1,31 @@
+{% assign image_width = include.width | default: "70%" %}
+{% assign max_width = include.max_width | default: site.max_width %}
+{% assign min_width = include.min_width | default: "300px" %}
+
+<div style="display: flex; justify-content: center;">
+  <figure style="width: {{ image_width }}; max-width: {{ max_width }}; min-width: {{ min_width }}; margin: 0 auto;">
+    <img src="{{ include.src }}"
+         alt="{{ include.alt | default: '' }}"
+         style="width: 100%; height: auto; display: block;"
+         {% if include.class %}
+           class="{{ include.class }}"
+         {% endif %}
+         {% if include.title %}
+           title="{{ include.title }}"
+         {% endif %}
+         {% if include.zoomable %}
+           data-zoomable
+         {% endif %}
+         {% if include.loading %}
+           loading="{{ include.loading }}"
+         {% elsif site.lazy_loading_images %}
+           loading="lazy"
+         {% endif %}
+         >
+    {% if include.caption %}
+      <figcaption style="text-align: center; font-size: 0.9em;">
+        {{ include.caption }}
+      </figcaption>
+    {% endif %}
+  </figure>
+</div>

@@ -37,9 +37,14 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-modeling-pupil-responses",
           title: 'Modeling Pupil Responses',
-          description: "My undergraduate work",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/modeling-pupil-responses/";
+            },},{id: "projects-neuroimaging-of-movement-disorders",
+          title: 'Neuroimaging of Movement Disorders',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/neurological-movement-disorders/";
             },},{
         id: 'social-email',
         title: 'email',

@@ -1091,6 +1091,10 @@ html.transition *:after {
       }
     }
   }
+
+  // h1, h2 {
+  //   border-bottom: 1px solid var(--global-divider-color);
+  // }
 }
 
 progress {

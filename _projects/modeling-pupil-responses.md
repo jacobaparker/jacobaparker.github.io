@@ -10,7 +10,11 @@ related_publications: true
 
 This is the project I worked on as an undergraduate research assistant in the [Carrasco lab](https://wp.nyu.edu/carrascolab/). The following is adapted from a [Twitter thread](https://x.com/jake_a_parker/status/1282730895624085506) that was originally posted on July 13, 2020.
 
+<br>
+
 ## Summary
+
+***
 
 Pupil size is an indicator of various cognitive processes, making it potentially useful for assessing task-related processing dynamics. [Rachel Denison](https://sites.bu.edu/denisonlab/), [Marisa Carrasco](https://wp.nyu.edu/carrascolab/), and I developed a model that allows one to evaluate these dynamics by linking pupil responses to trial events {% cite denisonModelingPupilResponses2020 %}.
 
@@ -32,6 +36,8 @@ We created an open-source Matlab toolbox (Pupil Response Estimation Toolbox - PR
 <br>
 
 ## More Details
+
+***
 
 The dynamics of pupil dilation are sluggish, taking ~1 sec to fully dilate in response to an internal cognitive signal (tmax below - units in ms). When many such signals occur within 1-2 secs, it is difficult to attribute changes in pupil size to any single signal.
 
@@ -95,3 +101,5 @@ We also found that cognitive signals should not be assumed to occur simultaneous
 Finally, we found that event-related pupil dilation amplitudes were larger for all trial events in the discrimination task as opposed to the estimation task – see panel A directly above (experimental design between these two tasks was identical apart from report type).
 
 For more information about the experimental procedure, parameter estimation, model validation, reliability of parameter estimates, and more, check out the paper, [Modeling pupil responses to rapid sequential events.](https://link.springer.com/article/10.3758/s13428-020-01368-6)
+
+<br>

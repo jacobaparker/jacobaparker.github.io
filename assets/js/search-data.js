@@ -44,7 +44,7 @@ ninja.data = [{
           title: 'Neuroimaging of Movement Disorders',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/neurological-movement-disorders/";
+              window.location.href = "/projects/movement-disorders/";
             },},{
         id: 'social-email',
         title: 'email',

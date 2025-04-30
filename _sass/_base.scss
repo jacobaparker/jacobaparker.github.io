@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5, h6, nav{
   font-variant-ligatures: none;
   font-family: "Playfair Display", 'Latin Modern Roman', Garamond, Georgia, serif;
   color: var(--global-header-text-color);
+  // font-weight: 500;
 }
 
 nav {
@@ -100,7 +101,7 @@ strong {
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: var(--global-divider-thickness) solid var(--global-divider-color);
 }
 
 table {
@@ -324,22 +325,24 @@ ul.task-list input[type="checkbox"] {
 
 // Navbar customization
 
-// .navbar-brand {
-//   font-size: 1.3rem;
-// }
+.navbar-brand {
+  // font-size: 1.3rem;
+  font-weight: 500;
+}
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: var(--global-divider-thickness) solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
   padding-bottom: 0.3rem;
   padding-top: 0.3rem;
+  font-weight: 500;
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
+  border: var(--global-divider-thickness) solid var(--global-divider-color);
 
   a:not(.active) {
     color: var(--global-header-text-color);
@@ -350,12 +353,13 @@ ul.task-list input[type="checkbox"] {
   }
 
   .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
+    border-top: var(--global-divider-thickness) solid var(--global-divider-color) !important;
   }
 }
 
 .dropdown-item {
   color: var(--global-header-text-color);
+  // font-weight: bold;
 
   &:hover {
     color: var(--global-hover-color);
@@ -386,7 +390,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    // font-weight: bolder;
     color: var(--global-theme-color);
 
     &:hover {
@@ -627,7 +631,7 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: var(--global-divider-thickness) solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
@@ -680,7 +684,7 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: var(--global-divider-thickness) solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -722,7 +726,7 @@ footer.sticky-bottom {
   padding: 0;
 
   li {
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: var(--global-divider-thickness) solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -817,7 +821,7 @@ footer.sticky-bottom {
 
   h2.category {
     color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: var(--global-divider-thickness) solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -848,7 +852,7 @@ footer.sticky-bottom {
 
   h2.bibliography {
     color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    border-top: var(--global-divider-thickness) solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -1093,7 +1097,7 @@ html.transition *:after {
   }
 
   // h1, h2 {
-  //   border-bottom: 1px solid var(--global-divider-color);
+  //   border-bottom: var(--global-divider-thickness) solid var(--global-divider-color);
   // }
 }
 
@@ -1471,7 +1475,7 @@ ninja-keys::part(ninja-input-wrapper) {
 
   .popover-header {
     color: var(--global-text-color); // Header text color
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: var(--global-divider-thickness) solid var(--global-divider-color);
   }
 
   .popover-body {
